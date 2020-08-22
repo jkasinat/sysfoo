@@ -25,7 +25,7 @@ pipeline{
 
      stage('package'){
       steps{
-            sh ' package -DskipTests
+            sh 'package -DskipTests'
            }
      }
 
